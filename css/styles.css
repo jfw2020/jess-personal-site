@@ -1,0 +1,144 @@
+
+/****************************************** index.html **********************************************/
+
+body {
+  background-color: #fff5ea;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+
+.navbar {
+  padding: 25px 10%;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-item {
+  margin: auto 5px;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-item {
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.dropdown-item:hover {
+  background-color: #fff5ea;
+}
+
+.dropdown-item:focus {
+  background-color: #fff5ea;
+}
+
+.btn {
+  color: white;
+  border: none;
+  background-color: #ecb390;
+  border-radius: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.intro-container {
+  height: 80vh;
+  background-image: url("../images/clouds.JPG");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.intro-quote-container {
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.bio {
+  dispaly: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 50px 0;
+  width: 70%;
+  margin: auto;
+}
+
+.col-lg-6 {
+  padding: 25px ;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.jess-img {
+  width: 100%;
+}
+
+/****************************************** weddings.html **********************************************/
+
+.top-container-weddings {
+  height: 80vh;
+  background-image: url("../images/wedding/3Z4A2462.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/****************************************** families.html **********************************************/
+
+.top-container-families {
+  height: 80vh;
+  background-image: url("../images/family/meyer-family-img.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/****************************************** hobbies.html **********************************************/
+
+.top-container-hobbies {
+  height: 80vh;
+  background-image: url("../images/hobbies/3Z4A8385.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/****************************************** general gallery styling **********************************************/
+
+#gallery {
+  width: 100%;
+  position: relative;
+}
+
+.col-lg-4 img {
+  width: 100%;
+  margin: 15px;
+}
+
+.col-lg-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
